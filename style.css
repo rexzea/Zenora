@@ -17,7 +17,6 @@
     --transition: all 0.3s ease;
 }
 
-/* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -89,7 +88,6 @@
     font-size: 16px;
 }
 
-/* Section Styles */
 .section {
     min-height: 100vh;
     padding: 120px 50px;
@@ -145,7 +143,6 @@
     margin-bottom: 20px;
 }
 
-/* Section Background and Styling */
 #home {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
@@ -180,7 +177,6 @@
     transition: var(--transition);
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -198,7 +194,6 @@
     background: var(--primary-color);
 }
 
-/* Additional Professional Elements */
 .section::before {
     content: '';
     position: absolute;
@@ -211,7 +206,6 @@
     pointer-events: none;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 968px) {
     .navbar {
         padding: 15px 30px;
@@ -285,7 +279,6 @@
     }
 }
 
-/* Animation Classes */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -301,13 +294,11 @@
     animation: fadeIn 1s ease-out;
 }
 
-/* Professional Hover Effects */
 .content:hover {
     transform: translateY(-5px);
     transition: var(--transition);
 }
 
-/* Loading Effect */
 .section {
     opacity: 0;
     transform: translateY(20px);
@@ -323,7 +314,6 @@
 
 
 
-/* Home Section Styles */
 .home-container {
     width: 100%;
     max-width: 1400px;
@@ -341,7 +331,6 @@
     padding-top: 80px;
 }
 
-/* Profile Area Styles */
 .profile-area {
     flex: 0 0 400px;
 }
@@ -393,7 +382,6 @@
     transform: translateY(-3px);
 }
 
-/* Text Area Styles */
 .text-area {
     flex: 1;
     max-width: 600px;
@@ -439,7 +427,6 @@
     margin-bottom: 30px;
 }
 
-/* CTA Buttons */
 .cta-buttons {
     display: flex;
     gap: 20px;
@@ -477,7 +464,6 @@
     transform: translateY(-3px);
 }
 
-/* Quick Stats */
 .quick-stats {
     display: flex;
     gap: 40px;
@@ -501,7 +487,6 @@
     font-size: 0.9em;
 }
 
-/* Scroll Indicator */
 .scroll-indicator {
     position: absolute;
     bottom: 40px;
@@ -533,7 +518,6 @@
     }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1200px) {
     .home-content {
         padding-top: 100px;
@@ -603,14 +587,12 @@
 
 
 
-/* About Section Styles */
 .about-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-/* Section Header */
 .section-header {
     text-align: center;
     margin-bottom: 60px;
@@ -637,7 +619,6 @@
     margin: 0 auto;
 }
 
-/* Main Content Layout */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -645,7 +626,6 @@
     margin-bottom: 60px;
 }
 
-/* Personal Info Card */
 .info-card {
     background: var(--bg-white);
     border-radius: 15px;
@@ -716,7 +696,6 @@
     color: var(--text-secondary);
 }
 
-/* Expertise Areas */
 .expertise-card {
     display: flex;
     flex-direction: column;
@@ -776,7 +755,6 @@
     font-weight: 500;
 }
 
-/* Skills Section */
 .skills-section {
     background: var(--bg-white);
     border-radius: 15px;
@@ -856,7 +834,6 @@
     transform: translateY(-2px);
 }
 
-/* Animations */
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -868,7 +845,6 @@
     }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 992px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -912,7 +888,6 @@
 
 
 
-/* Journal Section Styles */
 .projects {
     padding: 8rem 5%;
     background: #f0f2f5;
@@ -1116,7 +1091,6 @@
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
-/* Responsive Design */
 @media (max-width: 1400px) {
     .project-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -1158,7 +1132,6 @@
     }
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1186,7 +1159,6 @@
     backdrop-filter: blur(10px);
 }
 
-/* Title Styles */
 .section-title {
     text-align: center;
     margin-bottom: 80px;
@@ -1235,7 +1207,6 @@
     margin: 0 auto;
 }
 
-/* Timeline Styles */
 .timeline {
     position: relative;
     max-width: 1000px;
@@ -1290,7 +1261,6 @@
     left: -10px;
 }
 
-/* Timeline Content Styles */
 .timeline-content {
     padding: 30px;
     background: white;
@@ -1345,7 +1315,6 @@
     font-size: 1rem;
 }
 
-/* Timeline Body Styles */
 .timeline-body h3 {
     font-family: 'Roboto Slab', serif;
     color: #2c3e50;
@@ -1359,7 +1328,6 @@
     margin-bottom: 20px;
 }
 
-/* Skills, Achievements, and Metrics Styles */
 .skills-learned,
 .achievement-list,
 .project-stats,
@@ -1394,7 +1362,6 @@
     color: #3498db;
 }
 
-/* Timeline Footer */
 .timeline-footer {
     margin-top: 20px;
     padding-top: 20px;
@@ -1415,7 +1382,6 @@
     gap: 12px;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .timeline::after {
         left: 31px;
@@ -1450,18 +1416,14 @@
 
 
 
-/* style.css */
 
-/* style.css */
 :root {
-    /* Color Palette */
     --primary-blue: #2563eb;
     --secondary-blue: #60a5fa;
     --accent-blue: #3b82f6;
     --gradient-blue: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
     --gradient-hover: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
     
-    /* Neutrals */
     --bg-white: #ffffff;
     --bg-light: #f8fafc;
     --text-dark: #1e293b;
@@ -1469,23 +1431,19 @@
     --text-muted: #94a3b8;
     --border-light: #e2e8f0;
     
-    /* Shadows */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     
-    /* Typography */
     --heading-font: 'Space Grotesk', sans-serif;
     --body-font: 'Outfit', sans-serif;
     
-    /* Transitions */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 0.5s ease;
 }
 
-/* Base Reset */
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -1499,7 +1457,6 @@ body {
     line-height: 1.6;
 }
 
-/* Contact Section Container */
 .contact-section {
     position: relative;
     padding: 120px 0;
@@ -1516,7 +1473,6 @@ body {
     z-index: 2;
 }
 
-/* Section Header Styling */
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
@@ -1555,14 +1511,12 @@ h2 {
     margin: 0 auto;
 }
 
-/* Contact Wrapper */
 .contact-wrapper {
     display: flex;
     gap: 3rem;
     margin-top: 2rem;
 }
 
-/* Contact Info Cards */
 .contact-info {
     flex: 1;
     display: flex;
@@ -1678,7 +1632,6 @@ h2 {
     box-shadow: var(--shadow-lg);
 }
 
-/* Contact Form */
 .contact-form-container {
     flex: 1.2;
     background: var(--bg-white);
@@ -1792,7 +1745,6 @@ h2 {
     transform: translateX(3px);
 }
 
-/* Decorative Elements */
 .decoration {
     position: absolute;
     border-radius: 50%;
@@ -1823,7 +1775,6 @@ h2 {
     transform: translateX(-50%);
 }
 
-/* Animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -1846,7 +1797,6 @@ h2 {
     }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1024px) {
     .contact-wrapper {
         gap: 2rem;
@@ -1905,12 +1855,10 @@ h2 {
     }
 }
 
-/* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1931,7 +1879,6 @@ html {
 
 
 
-/* Footer Styles */
 .footer {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     color: #e2e8f0;
@@ -1939,7 +1886,6 @@ html {
     overflow: hidden;
 }
 
-/* Footer Top Section */
 .footer-top {
     padding: 80px 0 50px;
     position: relative;
@@ -1951,7 +1897,6 @@ html {
     gap: 40px;
 }
 
-/* Brand Section */
 .footer-brand {
     max-width: 350px;
 }
@@ -1996,7 +1941,6 @@ html {
     transform: translateY(-3px);
 }
 
-/* Footer Links */
 .footer-links h3 {
     font-size: 1.2rem;
     font-weight: 600;
@@ -2041,7 +1985,6 @@ html {
     width: 100%;
 }
 
-/* Contact Info */
 .footer-contact h3 {
     font-size: 1.2rem;
     font-weight: 600;
@@ -2079,7 +2022,6 @@ html {
     color: #ffffff;
 }
 
-/* Newsletter Section */
 .footer-middle {
     padding: 40px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -2151,7 +2093,6 @@ html {
     box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
-/* Footer Bottom */
 .footer-bottom {
     padding: 25px 0;
     background: rgba(0, 0, 0, 0.2);
@@ -2182,7 +2123,6 @@ html {
     color: #ffffff;
 }
 
-/* Scroll to Top Button */
 #scroll-top {
     position: fixed;
     bottom: 30px;
@@ -2213,7 +2153,6 @@ html {
     box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1024px) {
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
@@ -2294,7 +2233,6 @@ html {
     --transition: all 0.3s ease;
 }
 
-/* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -2366,7 +2304,6 @@ html {
     font-size: 16px;
 }
 
-/* Section Styles */
 .section {
     min-height: 100vh;
     padding: 120px 50px;
@@ -2422,7 +2359,6 @@ html {
     margin-bottom: 20px;
 }
 
-/* Section Background and Styling */
 #home {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
@@ -2443,7 +2379,6 @@ html {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
-/* Mobile Menu */
 .burger {
     display: none;
     cursor: pointer;
@@ -2457,7 +2392,6 @@ html {
     transition: var(--transition);
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -2475,7 +2409,6 @@ html {
     background: var(--primary-color);
 }
 
-/* Additional Professional Elements */
 .section::before {
     content: '';
     position: absolute;
@@ -2488,7 +2421,6 @@ html {
     pointer-events: none;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 968px) {
     .navbar {
         padding: 15px 30px;
@@ -2562,7 +2494,6 @@ html {
     }
 }
 
-/* Animation Classes */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -2578,13 +2509,11 @@ html {
     animation: fadeIn 1s ease-out;
 }
 
-/* Professional Hover Effects */
 .content:hover {
     transform: translateY(-5px);
     transition: var(--transition);
 }
 
-/* Loading Effect */
 .section {
     opacity: 0;
     transform: translateY(20px);
@@ -2600,7 +2529,6 @@ html {
 
 
 
-/* Home Section Styles */
 .home-container {
     width: 100%;
     max-width: 1400px;
@@ -2618,7 +2546,6 @@ html {
     padding-top: 80px;
 }
 
-/* Profile Area Styles */
 .profile-area {
     flex: 0 0 400px;
 }
@@ -2670,7 +2597,6 @@ html {
     transform: translateY(-3px);
 }
 
-/* Text Area Styles */
 .text-area {
     flex: 1;
     max-width: 600px;
@@ -2716,7 +2642,6 @@ html {
     margin-bottom: 30px;
 }
 
-/* CTA Buttons */
 .cta-buttons {
     display: flex;
     gap: 20px;
@@ -2754,7 +2679,6 @@ html {
     transform: translateY(-3px);
 }
 
-/* Quick Stats */
 .quick-stats {
     display: flex;
     gap: 40px;
@@ -2778,7 +2702,6 @@ html {
     font-size: 0.9em;
 }
 
-/* Scroll Indicator */
 .scroll-indicator {
     position: absolute;
     bottom: 40px;
@@ -2810,7 +2733,6 @@ html {
     }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1200px) {
     .home-content {
         padding-top: 100px;
@@ -2880,14 +2802,12 @@ html {
 
 
 
-/* About Section Styles */
 .about-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-/* Section Header */
 .section-header {
     text-align: center;
     margin-bottom: 60px;
@@ -2914,7 +2834,6 @@ html {
     margin: 0 auto;
 }
 
-/* Main Content Layout */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2922,7 +2841,6 @@ html {
     margin-bottom: 60px;
 }
 
-/* Personal Info Card */
 .info-card {
     background: var(--bg-white);
     border-radius: 15px;
@@ -2993,7 +2911,6 @@ html {
     color: var(--text-secondary);
 }
 
-/* Expertise Areas */
 .expertise-card {
     display: flex;
     flex-direction: column;
@@ -3133,7 +3050,6 @@ html {
     transform: translateY(-2px);
 }
 
-/* Animations */
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -3145,7 +3061,6 @@ html {
     }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 992px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -3189,7 +3104,6 @@ html {
 
 
 
-/* Journal Section Styles */
 .projects {
     padding: 8rem 5%;
     background: #f0f2f5;
@@ -3393,7 +3307,6 @@ html {
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
-/* Responsive Design */
 @media (max-width: 1400px) {
     .project-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -3435,7 +3348,6 @@ html {
     }
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -3463,7 +3375,6 @@ html {
     backdrop-filter: blur(10px);
 }
 
-/* Title Styles */
 .section-title {
     text-align: center;
     margin-bottom: 80px;
@@ -3512,7 +3423,6 @@ html {
     margin: 0 auto;
 }
 
-/* Timeline Styles */
 .timeline {
     position: relative;
     max-width: 1000px;
@@ -3567,7 +3477,6 @@ html {
     left: -10px;
 }
 
-/* Timeline Content Styles */
 .timeline-content {
     padding: 30px;
     background: white;
@@ -3621,8 +3530,6 @@ html {
 .badge i {
     font-size: 1rem;
 }
-
-/* Timeline Body Styles */
 .timeline-body h3 {
     font-family: 'Roboto Slab', serif;
     color: #2c3e50;
@@ -3636,7 +3543,6 @@ html {
     margin-bottom: 20px;
 }
 
-/* Skills, Achievements, and Metrics Styles */
 .skills-learned,
 .achievement-list,
 .project-stats,
@@ -3671,7 +3577,6 @@ html {
     color: #3498db;
 }
 
-/* Timeline Footer */
 .timeline-footer {
     margin-top: 20px;
     padding-top: 20px;
@@ -3692,7 +3597,6 @@ html {
     gap: 12px;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .timeline::after {
         left: 31px;
@@ -3727,18 +3631,13 @@ html {
 
 
 
-/* style.css */
-
-/* style.css */
 :root {
-    /* Color Palette */
     --primary-blue: #2563eb;
     --secondary-blue: #60a5fa;
     --accent-blue: #3b82f6;
     --gradient-blue: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
     --gradient-hover: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
     
-    /* Neutrals */
     --bg-white: #ffffff;
     --bg-light: #f8fafc;
     --text-dark: #1e293b;
@@ -3746,23 +3645,19 @@ html {
     --text-muted: #94a3b8;
     --border-light: #e2e8f0;
     
-    /* Shadows */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     
-    /* Typography */
     --heading-font: 'Space Grotesk', sans-serif;
     --body-font: 'Outfit', sans-serif;
     
-    /* Transitions */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 0.5s ease;
 }
 
-/* Base Reset */
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -3776,7 +3671,6 @@ body {
     line-height: 1.6;
 }
 
-/* Contact Section Container */
 .contact-section {
     position: relative;
     padding: 120px 0;
@@ -3793,7 +3687,6 @@ body {
     z-index: 2;
 }
 
-/* Section Header Styling */
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
@@ -3832,14 +3725,12 @@ h2 {
     margin: 0 auto;
 }
 
-/* Contact Wrapper */
 .contact-wrapper {
     display: flex;
     gap: 3rem;
     margin-top: 2rem;
 }
 
-/* Contact Info Cards */
 .contact-info {
     flex: 1;
     display: flex;
@@ -3927,7 +3818,6 @@ h2 {
     color: var(--primary-blue);
 }
 
-/* Social Links */
 .social-links {
     display: flex;
     gap: 1rem;
@@ -3955,7 +3845,6 @@ h2 {
     box-shadow: var(--shadow-lg);
 }
 
-/* Contact Form */
 .contact-form-container {
     flex: 1.2;
     background: var(--bg-white);
@@ -4069,7 +3958,6 @@ h2 {
     transform: translateX(3px);
 }
 
-/* Decorative Elements */
 .decoration {
     position: absolute;
     border-radius: 50%;
@@ -4100,7 +3988,6 @@ h2 {
     transform: translateX(-50%);
 }
 
-/* Animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -4123,7 +4010,6 @@ h2 {
     }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1024px) {
     .contact-wrapper {
         gap: 2rem;
@@ -4182,12 +4068,10 @@ h2 {
     }
 }
 
-/* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -4208,7 +4092,6 @@ html {
 
 
 
-/* Footer Styles */
 .footer {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
     color: #e2e8f0;
@@ -4216,7 +4099,6 @@ html {
     overflow: hidden;
 }
 
-/* Footer Top Section */
 .footer-top {
     padding: 80px 0 50px;
     position: relative;
@@ -4228,7 +4110,6 @@ html {
     gap: 40px;
 }
 
-/* Brand Section */
 .footer-brand {
     max-width: 350px;
 }
@@ -4273,7 +4154,6 @@ html {
     transform: translateY(-3px);
 }
 
-/* Footer Links */
 .footer-links h3 {
     font-size: 1.2rem;
     font-weight: 600;
@@ -4318,7 +4198,6 @@ html {
     width: 100%;
 }
 
-/* Contact Info */
 .footer-contact h3 {
     font-size: 1.2rem;
     font-weight: 600;
@@ -4356,7 +4235,6 @@ html {
     color: #ffffff;
 }
 
-/* Newsletter Section */
 .footer-middle {
     padding: 40px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -4428,7 +4306,6 @@ html {
     box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
-/* Footer Bottom */
 .footer-bottom {
     padding: 25px 0;
     background: rgba(0, 0, 0, 0.2);
@@ -4459,7 +4336,6 @@ html {
     color: #ffffff;
 }
 
-/* Scroll to Top Button */
 #scroll-top {
     position: fixed;
     bottom: 30px;
@@ -4490,7 +4366,6 @@ html {
     box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1024px) {
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
